@@ -1,0 +1,13 @@
+numpy
+tifffile
+imagecodecs>=2020.2.18
+csbdeep<0.8.0,>=0.7.2
+Pillow
+ruamel.yaml>=0.16.10
+bioimageio.core
+
+[:python_version < "3.4"]
+backports.tempfile
+
+[testing]
+pytest
